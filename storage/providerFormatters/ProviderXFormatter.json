@@ -1,0 +1,23 @@
+{
+    "id":"ProductIdentification",
+    "name":"ProductName",
+    "currency":"ProductCurrency",
+    "originalPrice":"ProductOriginalPrice",
+    "currentPrice":"ProductCurrentPrice",
+    "status":{
+        "key":"StatusCode",
+        "allowedValues":{
+            "inStock":1,
+            "outStock":2
+        }
+    },
+    "vat":{
+        "key":"IncludeVAT",
+        "allowedValues":{
+            "true":"0",
+            "false":"1"
+        }
+    },
+    "endDate":"OfferEndDate"
+
+}

@@ -1,0 +1,24 @@
+{
+    "id":"id",
+    "name":"name",
+    "currency":"currency",
+    "originalPrice":"original_price",
+    "currentPrice":"current_price",
+    "status":{
+        "key":"status",
+        "allowedValues":{
+            "inStock":100,
+            "outStock":200
+        }
+    },
+    "Vat":{
+        "key":"include_VAT",
+        "allowedValues":{
+            "false":"no",
+            "true":"yes"
+        }
+    },
+    "EndDate":"end_date",
+    "description":"description"
+
+}
