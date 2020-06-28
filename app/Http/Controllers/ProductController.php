@@ -24,6 +24,8 @@ class ProductController extends Controller
      * @param Request $request
      */
     public function index(Request $request){
-        
+
+        $productData = $this->productListingService->list();
+        return response()->json($productData,200);
     }
 }
